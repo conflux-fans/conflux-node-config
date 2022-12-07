@@ -12,7 +12,7 @@ execution:
   genesis_file_location: ./genesis_file
 logger:
   file: ./log/pos.log
-  level: INFO
+  level: WARN
 storage:
   prune_window: 10000000
   #dir: ./pos_db/db
